@@ -17,33 +17,3 @@ $ hugo server -s HuGo/
 # 生成静态站点
 $ hugo -s HuGo/
 ```
-
-
-## 帮助文档
-
-- 官网：https://gohugo.io/
-- 基本用法：https://gohugo.io/getting-started/usage/
-- 主题：https://github.com/alex-shpak/hugo-book
-
-
-
-### 快速开始
-
-``` bash
-# 安装
-$ brew install hugo
-
-# 生成网站
-$ hugo new site ./HuGo
-
-$ cd HuGo
-$ git submodule add https://github.com/alex-shpak/hugo-book themes/book
-$ cp -R themes/book/exampleSite/content .
-$ hugo server --minify --theme book
-```
-
-
-
-
-
-
