@@ -15,24 +15,6 @@ markup:
   tableOfContents:
     startLevel: 1
 
-# Multi-lingual mode config
-# There are different options to translate files
-# See https://gohugo.io/content-management/multilingual/#translation-by-filename
-# And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
-languages:
-  en:
-    languageName: English
-    contentDir: content
-    weight: 1
-  ru:
-    languageName: Russian
-    contentDir: content.ru
-    weight: 2
-  cn:
-    languageName: Chinese
-    contentDir: content.cn
-    weight: 3
-
 menu:
   # before: []
   after:

@@ -2,7 +2,7 @@
 
 
 ```
-cp -r ../Template-Hugo/HuGo/themes HuGo/
+cp -r ../Template-Hugo/HuGo .
 sed -i '' 's/Template-Hugo/_NewProject_/g' `grep Template-Hugo --include=\*.{md,html,xml,yaml,toml} -rl .`
 
 git config user.email ykb553@163.com
