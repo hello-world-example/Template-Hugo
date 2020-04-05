@@ -3,7 +3,7 @@
 
 ```
 cp -r ../Template-Hugo/HuGo/themes HuGo/
-sed -i '' 's/Template-Hugo/_NewProject_/g' `grep Template-Hugo --include=\*.{md,html,xml,yaml} -rl .`
+sed -i '' 's/Template-Hugo/_NewProject_/g' `grep Template-Hugo --include=\*.{md,html,xml,yaml,toml} -rl .`
 
 git config user.email ykb553@163.com
 git config -l | grep user
