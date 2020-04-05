@@ -19,5 +19,3 @@ hugo server -s HuGo/
 # 生成静态站点
 hugo -s HuGo/
 ```
-
-- https://github.com/alex-shpak/hugo-book
