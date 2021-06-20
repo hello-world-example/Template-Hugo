@@ -2,6 +2,7 @@ baseURL: https://hello-world-example.github.io/Template-Hugo/
 title: Template-Hugo
 theme: book
 publishDir: '../docs'
+contentdir: '../hugo-Template-Hugo-content'
 
 # Book configuration
 disablePathToLower: true
