@@ -4,7 +4,11 @@ CUR_ORIGIN=$(git remote get-url origin)
 echo "当前仓库：$CUR_ORIGIN"
 
 if [[ $CUR_ORIGIN == *github.com* ]]; then
-  git remote set-url origin ${CUR_ORIGIN/github.com/gitee.com}
+  git remote set-url origin ${CUR_ORIGIN/github.com/hub.fastgit.org}
+fi
+
+if [[ $CUR_ORIGIN == *hub.fastgit.org* ]]; then
+  git remote set-url origin ${CUR_ORIGIN/hub.fastgit.org/gitee.com}
 fi
 
 if [[ $CUR_ORIGIN == *gitee.com* ]]; then
